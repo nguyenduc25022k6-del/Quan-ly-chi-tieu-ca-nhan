@@ -1,10 +1,4 @@
 @echo off
-REM ============================================================
-REM  build.bat — Quan ly Chi tieu Ca nhan
-REM  MI3310 | Nhom 12 | HUST 2026
-REM  Dung tren Windows (can g++ trong PATH)
-REM  Cach chay: double-click hoac goi tu cmd: build.bat
-REM ============================================================
 
 set CXX=g++
 set CXXFLAGS=-std=c++11 -Wall -Iinclude
